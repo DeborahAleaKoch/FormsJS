@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- <script src="./assets/js/main.js" defer></script> -->
-    <title>Document</title>
+    <script src="./assets/js/main.js" defer></script>
+    <title>Forms JS Level 1_2</title>
   </head>
   <body>
-    <script src="./assets/js/main.js"></script>
+    <section class="result">
+      <form onsubmit="data(); return false">
+        <label for="birth-date">Gib dein Geburtsjahr ein:</label>
+        <input type="number" name="year" id="birth-date" />
+        <input type="submit" value="Berechne mein Alter!" />
+      </form>
+    </section>
+    <!-- <script src="./assets/js/main.js"></script> -->
   </body>
 </html>
