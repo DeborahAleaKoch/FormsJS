@@ -4,10 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- <script src="./assets/js/main.js" defer></script> -->
-    <title>Document</title>
+    <script src="./assets/js/main.js" defer></script>
+    <title>Forms Js Level 1_3</title>
   </head>
   <body>
-    <script src="./assets/js/main.js"></script>
+    <section>
+      <h1>Vergleiche das Alter</h1>
+      <form onsubmit="diff(); return false">
+        <label for="age1">Alter Person 1</label>
+        <input type="number" name="person1" id="age1" />
+        <label for="age2">Alter Person 2</label>
+        <input type="number" name="person2" id="age2" />
+        <input type="submit" value="Berechne!" />
+      </form>
+      <h3 class="result">Die Differenz beträgt:</h3>
+    </section>
+    <!-- <script src="./assets/js/main.js"></script> -->
   </body>
 </html>
